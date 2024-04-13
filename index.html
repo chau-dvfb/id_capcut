@@ -32,7 +32,7 @@
           <div class="card-body">
             <div class="form-group">
               <label for="facebookLink">Vui lòng nhập link CapCut của bạn:</label>
-              <input type="text" class="form-control" id="facebookLink" placeholder="Nhập link Facebook">
+              <input type="text" class="form-control" id="facebookLink" placeholder="Nhập link CapCut">
             </div>
             <button type="button" class="btn btn-primary btn-block" onclick="getFacebookID()">Lấy ID</button>
           </div>
@@ -58,7 +58,7 @@
         successMessage.textContent = "Lấy ID thành công!";
         document.querySelector(".card-body").appendChild(successMessage);
       } else {
-        alert("Lấy ID thất bại!.");
+        alert("Lấy ID thất bại!");
       }
     }
   </script>
